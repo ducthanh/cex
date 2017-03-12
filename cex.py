@@ -12,7 +12,6 @@ HEADLESS = 'hl'
 
 @click.command()
 
-
 def cex(h,e,c,t):
     cm = 'bundle exec' + ' cucumber' + ' -p ' + profile_builder(e, c, h) + ' -t ' + tags_builder(t)
     call(cm, shell=True)
