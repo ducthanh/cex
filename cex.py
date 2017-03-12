@@ -5,7 +5,6 @@ import unicodedata
 
 HEADLESS = 'hl'
 
-
 @click.option('-h', default=False, help='run your test with Headless if -h = True')
 @click.option('-e', default='staging', help='your test environment')
 @click.option('-c', default='sg', help='your test country')
