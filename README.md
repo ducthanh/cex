@@ -10,6 +10,6 @@ cex -t 223232,232323 -e staging -c s
 Installing
 ---
 Clone or download the project
-```python
+```bash
 pip install --editable
 ```
